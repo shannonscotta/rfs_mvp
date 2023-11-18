@@ -1,24 +1,27 @@
 import React, { useEffect, useState } from "react";
 
 const App = () => {
-  const [tasks, setTasks] = useState([]);
+  const [contacts, setContacts] = useState([]);
 
   useEffect(() => {
-    fetch("/api/tasks")
+    fetch("/api/contacts")
       .then((res) => res.json())
-      .then((tasks) => {
-        setTasks(tasks);
+      .then((contacts) => {
+        setContacts(contacts);
       });
   }, []);
 
   return (
-    <main>
-      {tasks.map((task) => (
-        <span className="task" key={task.id}>
-          {task.description}
-        </span>
-      ))}
-    </main>
+    // <main>
+    //   {contacts.map((contact) => (
+    //     <div className="contact" key={contact.id}>
+    //       <h1>{contact.name}</h1>
+    //       <h2>{contact.email}</h2>
+    //       <h2>{contact.message}</h2>
+    //     </div>
+    //   ))}
+    // </main>
+    <h1>test from app jsx</h1>
   );
 };
 

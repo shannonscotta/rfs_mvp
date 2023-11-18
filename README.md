@@ -38,3 +38,6 @@ It uses vite as the module bundler and dotenv for configuration. It's organized 
 
 - `npm run dev` - Runs the server in watch mode.
 - `npm run start` - Starts the server (mainly used when deploying).
+
+
+TODO:// put drawSQL here, put figma designs here
