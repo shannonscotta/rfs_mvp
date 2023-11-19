@@ -1,5 +1,4 @@
 const GithubIcon = () => {
-
   const handleClick = () => {
     window.open("https://github.com/shannonscotta", "_blank");
   };

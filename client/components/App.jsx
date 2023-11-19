@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import Navigation from "./Navigation/Navigation";
+import Navigation from "./Navigation/Navigation.jsx";
+import Aside from "./Aside/Aside.jsx";
 
 const App = () => {
   const [contacts, setContacts] = useState([]);
@@ -14,19 +15,22 @@ const App = () => {
   }, []);
 
   return (
-
+    <>
     <Navigation />
-    // <main>
-    //   {contacts.map((contact) => (
-    //     <div className="contact" key={contact.id}>
-    //       <h1>{contact.name}</h1>
-    //       <h2>{contact.email}</h2>
-    //       <h2>{contact.message}</h2>
-    //     </div>
-    //   ))}
-    // </main>
+    <Aside />
+    </>
  
   );
 };
 
 export default App;
+
+// <main>
+//   {contacts.map((contact) => (
+//     <div className="contact" key={contact.id}>
+//       <h1>{contact.name}</h1>
+//       <h2>{contact.email}</h2>
+//       <h2>{contact.message}</h2>
+//     </div>
+//   ))}
+// </main>
