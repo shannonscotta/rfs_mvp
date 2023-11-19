@@ -1,8 +1,36 @@
 aside {
-    border: 1px solid white;
-    height: 80vh;
+    border: 2px solid #CECECE;
+    height: 75vh;
     width: 4vw;
     margin: 1.5em;
     border-radius: 15px;
     background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside:hover {
+    border: 2px solid white;
+    transition: all 0.2s ease-in-out;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+    width: 50%;
+    align-items: center;
+}
+
+section>svg {
+    fill: #CECECE;
+    stroke: #CECECE;
+}
+
+section>svg:hover {
+    cursor: pointer;
+    fill: white;
+    stroke: white;
 }
