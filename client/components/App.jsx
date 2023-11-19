@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 
+import Navigation from "./Navigation/Navigation";
+
 const App = () => {
   const [contacts, setContacts] = useState([]);
 
@@ -12,6 +14,8 @@ const App = () => {
   }, []);
 
   return (
+
+    <Navigation />
     // <main>
     //   {contacts.map((contact) => (
     //     <div className="contact" key={contact.id}>
@@ -21,7 +25,7 @@ const App = () => {
     //     </div>
     //   ))}
     // </main>
-    <h1>test from app jsx</h1>
+ 
   );
 };
 
