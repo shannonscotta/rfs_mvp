@@ -1,16 +1,18 @@
+import React, { useState } from "react";
+
 import HomeIcon from "../../assets/HomeIcon";
 import CodeIcon from "../../assets/CodeIcon";
 
 import MailIcon from "../../assets/MailIcon";
 import AsideCSS from "./Aside.module.css";
 
-const Aside = () => {
+const Aside = ({ handleView }) => {
   return (
     <aside className={AsideCSS.aside}>
       <section>
-        <HomeIcon />
-        <CodeIcon />
-        <MailIcon />
+        <HomeIcon handleView={handleView} />
+        <CodeIcon handleView={handleView} />
+        <MailIcon handleView={handleView} />
       </section>
     </aside>
   );

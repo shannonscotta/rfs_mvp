@@ -1,15 +1,11 @@
-const CodeIcon = () => {
-  let handleClick = () => {
-    console.log("clicked code icon");
-  };
-
+const CodeIcon = ({ handleView }) => {
   return (
     <svg
       width="37"
       height="24"
       viewBox="0 0 37 24"
       xmlns="http://www.w3.org/2000/svg"
-      onClick={handleClick}
+      onClick={() => handleView("skills")}
     >
       <mask id="codeiconid1">
         <path
