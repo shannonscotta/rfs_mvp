@@ -1,36 +1,40 @@
 aside {
     border: 2px solid #CECECE;
     height: 75vh;
-    width: 4vw;
+    width: 3.5vw;
     margin: 1.5em;
     border-radius: 15px;
     background-color: #1f1f1f;
     display: flex;
     justify-content: center;
     align-items: center;
+    float: left;
 }
 
 aside:hover {
-    border: 2px solid white;
-    transition: all 0.2s ease-in-out;
+    border: 2px solid white; 
 }
 
 section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 40%;
-    width: 50%;
+    height: 30%;
+    width: 100%;
     align-items: center;
 }
 
 section>svg {
     fill: #CECECE;
     stroke: #CECECE;
+    stroke-width: .1px;
+    transition: all 0.2s ease-in-out;
 }
 
 section>svg:hover {
     cursor: pointer;
     fill: white;
     stroke: white;
+    stroke-width: .5px;
+    transform: scale(1.1);
 }

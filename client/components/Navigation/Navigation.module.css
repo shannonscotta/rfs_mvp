@@ -12,8 +12,10 @@ header svg {
     fill: #CECECE;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+   
 }
 
 header svg:hover {
     fill: white;
+    transform: scale(1.2);
 }

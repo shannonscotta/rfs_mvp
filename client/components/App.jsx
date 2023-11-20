@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import Navigation from "./Navigation/Navigation.jsx";
 import Aside from "./Aside/Aside.jsx";
+import Main from "./Main/Main.jsx";
 
 const App = () => {
   const [contacts, setContacts] = useState([]);
@@ -18,6 +19,7 @@ const App = () => {
     <>
     <Navigation />
     <Aside />
+    <Main />
     </>
  
   );
