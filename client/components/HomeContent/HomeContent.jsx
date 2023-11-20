@@ -1,14 +1,14 @@
-import HomeContentCSS from "./HomeContent.module.css";
+import styles from "./HomeContent.module.css";
 
 const HomeContent = () => {
   return (
-    <main className={HomeContentCSS.main}>
-      <p>Hi,</p>
-      <p>I'm Scott.</p>
-      <div>
-        <p>Full stack developer,</p>
-        <p>lifelong learner, & tech enthusiast.</p>
-      </div>
+    <main className={styles.main}>
+      <p className={styles.p}>Hi,</p>
+      <p className={styles.p}>I'm Scott.</p>
+      <section className={styles.section}>
+        <p className={styles.p2}>Full stack developer,</p>
+        <p className={styles.p2}>lifelong learner, & tech enthusiast.</p>
+      </section>
     </main>
   );
 };

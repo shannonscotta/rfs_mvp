@@ -1,22 +1,24 @@
-main {
-    color: #CECECE;
+.main {
+    color: #ffffff;
     float: left;
-    width: 40%;
-    height: 40%;
+    width: 50%;
     margin-left: 7em;
     margin-top: 10em;
-    line-height: 3em;
-    border: 1px solid yellow;
+    line-height: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-main>p {
+.p {
     font-weight: 600;
     font-size: 54px;
 }
 
-main>div>p {
+.p2 {
+    color: #CECECE;
     font-weight: 100;
-    font-size: 38px;
+    font-size: 46px;
     letter-spacing: 1px;
-    margin-bottom: 1.5em;
+    margin-bottom: 2.1em;
 }
