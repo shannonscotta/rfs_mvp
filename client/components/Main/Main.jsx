@@ -1,22 +1,18 @@
-import React, { useState } from "react";
-
 import HomeContent from "../HomeContent/HomeContent";
-import MainCSS from "./Main.module.css";
-import CodeIcon from "../../assets/CodeIcon";
+import SkillsContent from "../SkillsContent/SkillsContent";
+import ContactContent from "../ContactContent/ContactContent";
 
 const Main = ({ currentView }) => {
-  console.log(currentView);
-
   const renderContent = () => {
     switch (currentView) {
       case "home":
         return <HomeContent />;
       case "skills":
-        return <div style={{ color: "white" }}>Skills section here</div>;
+        return <SkillsContent />;
       case "contact":
-        return <div style={{ color: "white" }}>Contact content here</div>;
+        return <ContactContent />;
       default:
-        return <div style={{ color: "white" }}> testing </div>;
+        return <HomeContent />;
     }
   };
 

@@ -5,7 +5,7 @@ import Aside from "./Aside/Aside.jsx";
 import Main from "./Main/Main.jsx";
 
 const App = () => {
-  const [contacts, setContacts] = useState([]);
+  // const [contacts, setContacts] = useState([]);
   const [currentView, setCurrentView] = useState("home");
 
   let handleView = (view) => {
@@ -24,13 +24,13 @@ const App = () => {
 
   console.log(currentView);
 
-  useEffect(() => {
-    fetch("/api/contacts")
-      .then((res) => res.json())
-      .then((contacts) => {
-        setContacts(contacts);
-      });
-  }, []);
+  // useEffect(() => {
+  //   fetch("/api/contacts")
+  //     .then((res) => res.json())
+  //     .then((contacts) => {
+  //       setContacts(contacts);
+  //     });
+  // }, []);
 
   return (
     <>
