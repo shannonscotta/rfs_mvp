@@ -25,7 +25,6 @@ app.post("/api/contacts", (req, res) => {
     });
 });
 
-
 // app.get("/api/contacts", (req, res) => {
 //   sql`SELECT * FROM contacts`.then((rows) => {
 //     res.send(rows);
