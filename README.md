@@ -8,13 +8,17 @@ This project is built using a range of modern web technologies:
 Explore the Figma design for this project:
 - [View Portfolio Prototype on Figma](https://www.figma.com/proto/nV4xeVGA9RGxRJeEBQ1kQ0/portfolio?page-id=0%3A1&type=design&node-id=34-2&viewport=-1174%2C574%2C0.52&t=QoRauYkD852cO1Ha-1&scaling=scale-down&mode=design)
 
-<iframe width="50%" style="border: 1px solid rgba(0, 0, 0, 0.1);"  height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FnV4xeVGA9RGxRJeEBQ1kQ0%2Fportfolio%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D34-2%26viewport%3D-1174%252C574%252C0.52%26t%3DQoRauYkD852cO1Ha-1%26scaling%3Dscale-down%26mode%3Ddesign" allowfullscreen></iframe>
+<!-- <iframe width="50%" style="border: 1px solid rgba(0, 0, 0, 0.1);"  height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FnV4xeVGA9RGxRJeEBQ1kQ0%2Fportfolio%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D34-2%26viewport%3D-1174%252C574%252C0.52%26t%3DQoRauYkD852cO1Ha-1%26scaling%3Dscale-down%26mode%3Ddesign" allowfullscreen></iframe> -->
+
+![figma prototype](./client/assets/figma.png)
 
 ## drawSQL ERD
 Entity Relationship Diagram (ERD):
 - [View ERD on DrawSQL](https://drawsql.app/teams/team-scott-1/diagrams/rfs-mvp/embed)
 
-<iframe width="50%" height="450" style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); border-radius:15px;" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Embedded DrawSQL IFrame" frameborder="0" src="https://drawsql.app/teams/team-scott-1/diagrams/rfs-mvp/embed"></iframe>
+<!-- <iframe width="50%" height="450" style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); border-radius:15px;" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Embedded DrawSQL IFrame" frameborder="0" src="https://drawsql.app/teams/team-scott-1/diagrams/rfs-mvp/embed"></iframe> -->
+
+![figma prototype](./client/assets/drawSQL.png)
 
 ## Learning Points
 Throughout the development of this project, key learning areas included:
@@ -30,7 +34,6 @@ Ongoing development and enhancements are focused on:
 - Integrating cypress for end-to-end testing
 - Optimizing media queries for improved mobile responsiveness
 - Preparing for deployment to [scottshannon.dev](https://scottshannon.dev)
-
 
 
 <!-- # Full-Stack React Example
