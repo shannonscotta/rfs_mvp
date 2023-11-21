@@ -2,8 +2,6 @@ import HomeContent from "../HomeContent/HomeContent";
 import SkillsContent from "../SkillsContent/SkillsContent";
 import Mail from "../Mail/Mail";
 
-import Sidebar from "../Sidebar/Sidebar";
-
 const Center = ({ currentView }) => {
   const renderContent = () => {
     switch (currentView) {
@@ -18,8 +16,7 @@ const Center = ({ currentView }) => {
     }
   };
 
-  return renderContent()
-    
+  return renderContent();
 };
 
 export default Center;

@@ -5,7 +5,8 @@
 }
 
 .header svg {
-    padding: 2em 2em 2em 0em;
+    padding: 2em 2em 0em 0em;
+    margin-right: .5em;
     fill: #CECECE;
     cursor: pointer;
     transition: all 0.2s ease-in-out;

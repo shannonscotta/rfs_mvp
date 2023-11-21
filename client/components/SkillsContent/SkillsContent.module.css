@@ -10,16 +10,14 @@
 
 .main>.p {
     font-size: xx-large;
-    word-spacing: 10px;
+    word-spacing: 0.625em;
     color: #CECECE;
 }
 
 .logos>img {
-    margin-right: 2em;
-    margin-bottom: 4em;
-    width: 100px;
-    height: 100px;
+    width: 7.5em;
+    height: 6.25em;
     text-align: center;
-    margin: 50px 50px 50px 5px;
+    margin: 3.125em 3.125em 3.125em 0.3125em;
     cursor: pointer;
 }

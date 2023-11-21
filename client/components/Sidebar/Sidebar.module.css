@@ -1,9 +1,9 @@
 .aside {
-    border: 2px solid #CECECE;
+    border: 0.125em solid #CECECE;
     height: 100%;
     width: 4vw;
     margin: 0em 10em 0em 2em;
-    border-radius: 15px;
+    border-radius: 0.9375em;
     background-color: #1f1f1f;
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@
 }
 
 .aside:hover {
-    border: 2px solid white;
+    border: 0.125em solid white;
 }
 
 .section {
@@ -26,7 +26,7 @@
 .section>svg {
     fill: #CECECE;
     stroke: #CECECE;
-    stroke-width: .1px;
+    stroke-width: 0.00625em;
     transition: all 0.2s ease-in-out;
 }
 
@@ -34,6 +34,6 @@
     cursor: pointer;
     fill: white;
     stroke: white;
-    stroke-width: .5px;
+    stroke-width: 0.03125em;
     transform: scale(1.2);
 }

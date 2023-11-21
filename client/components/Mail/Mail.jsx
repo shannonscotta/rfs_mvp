@@ -24,9 +24,9 @@ const Mail = () => {
         body: JSON.stringify(contactData),
       });
 
-      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-      
-      setIsSubmitted(true);
+      if (!response.ok)
+        throw new Error(`Error, status: ${response.status}`);
+
       setEmail("");
       setName("");
       setMessage("");
@@ -36,19 +36,17 @@ const Mail = () => {
   };
 
   return (
-<>
     <main className={styles.main}>
       <form onSubmit={handleSubmit}>
-
-      <label htmlFor="name">Name</label>
-      <input
-        type="name"
-        id="name"
-        value={name}
-        placeholder="Galileo Galilei"
-        onChange={(e) => setName(e.target.value)}
-        required
-      />
+        <label htmlFor="name">Name</label>
+        <input
+          type="name"
+          id="name"
+          value={name}
+          placeholder="Galileo Galilei"
+          onChange={(e) => setName(e.target.value)}
+          required
+        />
         <label htmlFor="email">Email</label>
         <input
           type="email"
@@ -71,7 +69,6 @@ const Mail = () => {
         <button type="submit">Send</button>
       </form>
     </main>
-    </>
   );
 };
 

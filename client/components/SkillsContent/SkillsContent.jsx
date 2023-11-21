@@ -59,7 +59,7 @@ const SkillsContent = () => {
 
       <p className={styles.p}>JavaScript, React.js, Vite, HTML, CSS</p>
       <p className={styles.p}>Node.js, Express.js, PostgreSQL</p>
-      <p className={styles.p}>Git, Vitest, Cypress, TDD, CI/CD, UI/UX</p>
+      <p className={styles.p}>Git, Vitest, Cypress, CI/CD, UI/UX</p>
     </main>
   );
 };
