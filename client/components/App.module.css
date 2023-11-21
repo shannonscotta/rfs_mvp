@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    background-color: #0C0C0C;
+  }
+
+  .section {
+    display: flex;
+    height: 75vh;
+}

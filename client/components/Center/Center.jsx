@@ -1,8 +1,10 @@
 import HomeContent from "../HomeContent/HomeContent";
 import SkillsContent from "../SkillsContent/SkillsContent";
-import ContactContent from "../ContactContent/ContactContent";
+import Mail from "../Mail/Mail";
 
-const Main = ({ currentView }) => {
+import Sidebar from "../Sidebar/Sidebar";
+
+const Center = ({ currentView }) => {
   const renderContent = () => {
     switch (currentView) {
       case "home":
@@ -10,13 +12,14 @@ const Main = ({ currentView }) => {
       case "skills":
         return <SkillsContent />;
       case "contact":
-        return <ContactContent />;
+        return <Mail />;
       default:
         return <HomeContent />;
     }
   };
 
-  return renderContent();
+  return renderContent()
+    
 };
 
-export default Main;
+export default Center;

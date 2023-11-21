@@ -1,20 +1,17 @@
-header {
+.header {
     display: flex;
     justify-content: flex-end;
-    border: 1px solid yellow;
-    height: 100px;
+    height: 12.5vh;
 }
 
-header svg {
-    padding: 1.5em;
-    border: 1px solid yellow;
-    margin-right: 1em;
+.header svg {
+    padding: 2em 2em 2em 0em;
     fill: #CECECE;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
 
-header svg:hover {
+.header svg:hover {
     fill: white;
     transform: scale(1.2);
 }

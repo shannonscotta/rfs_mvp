@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
-import Navigation from "./Navigation/Navigation.jsx";
-import Aside from "./Aside/Aside.jsx";
-import Main from "./Main/Main.jsx";
+import Header from "./Header/Header.jsx";
+import Sidebar from "./Sidebar/Sidebar.jsx";
+import Center from "./Center/Center.jsx";
 import Footer from "./Footer/Footer.jsx";
+import styles from "./App.module.css";
 
 const App = () => {
-  // const [contacts, setContacts] = useState([]);
   const [currentView, setCurrentView] = useState("home");
 
   let handleView = (view) => {
@@ -15,9 +15,11 @@ const App = () => {
 
   return (
     <>
-      <Navigation />
-      <Aside handleView={handleView} />
-      <Main currentView={currentView} />
+      <Header />
+      <section className={styles.section}>
+        <Sidebar handleView={handleView} />
+        <Center currentView={currentView} />
+      </section>
       <Footer />
     </>
   );

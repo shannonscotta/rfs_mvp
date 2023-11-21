@@ -2,9 +2,9 @@ import HomeIcon from "../../assets/HomeIcon";
 import CodeIcon from "../../assets/CodeIcon";
 import MailIcon from "../../assets/MailIcon";
 
-import styles from "./Aside.module.css";
+import styles from "./Sidebar.module.css";
 
-const Aside = ({ handleView }) => {
+const Sidebar = ({ handleView }) => {
   return (
     <div className={styles.container}>
     <aside className={styles.aside}>
@@ -18,4 +18,4 @@ const Aside = ({ handleView }) => {
   );
 };
 
-export default Aside;
+export default Sidebar;

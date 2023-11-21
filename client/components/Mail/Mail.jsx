@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import styles from "./ContactContent.module.css";
+import styles from "./Mail.module.css";
 
-const ContactContent = () => {
+const Mail = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
-  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -36,15 +35,8 @@ const ContactContent = () => {
     }
   };
 
-  if (isSubmitted) {
-    return (
-      <main className={styles.main}>
-        <h1>Thank you for reaching out!</h1>
-       </main>
-    );
-  }
-
   return (
+<>
     <main className={styles.main}>
       <form onSubmit={handleSubmit}>
 
@@ -79,7 +71,8 @@ const ContactContent = () => {
         <button type="submit">Send</button>
       </form>
     </main>
+    </>
   );
 };
 
-export default ContactContent;
+export default Mail;

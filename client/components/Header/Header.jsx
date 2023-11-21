@@ -1,15 +1,15 @@
 import GithubIcon from "../../assets/GithubIcon";
 import LinkedinIcon from "../../assets/LinkedinIcon";
 
-import NavigationCSS from "./Navigation.module.css";
+import styles from "./Header.module.css";
 
-const Navigation = () => {
+const Header = () => {
   return (
-    <header className={NavigationCSS.header}>
+    <header className={styles.header}>
       <GithubIcon />
       <LinkedinIcon />
     </header>
   );
 };
 
-export default Navigation;
+export default Header;

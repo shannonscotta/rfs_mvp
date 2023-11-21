@@ -1,15 +1,11 @@
 .main {
     width: auto;
-    float: left;
     color: #CECECE;
-    width: 50%;
-    margin-left: 7em;
-    margin-top: 10em;
     line-height: 1em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border: 1px solid yellow;
+    margin: auto auto auto 0;
 }
 
 .main>.p {
@@ -18,18 +14,12 @@
     color: #CECECE;
 }
 
-.logos {
-    display: flex;
-    margin-left: -3em;
-}
-
 .logos>img {
     margin-right: 2em;
-    margin-bottom: 5em;
+    margin-bottom: 4em;
     width: 100px;
     height: 100px;
     text-align: center;
-    margin: 50px;
-    position: relative;
+    margin: 50px 50px 50px 5px;
     cursor: pointer;
 }

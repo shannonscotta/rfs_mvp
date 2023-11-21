@@ -1,14 +1,13 @@
 .aside {
     border: 2px solid #CECECE;
-    height: 75vh;
-    width: 3.5vw;
-    margin: 2em;
+    height: 100%;
+    width: 4vw;
+    margin: 0em 10em 0em 2em;
     border-radius: 15px;
     background-color: #1f1f1f;
     display: flex;
     justify-content: center;
     align-items: center;
-    float: left;
 }
 
 .aside:hover {

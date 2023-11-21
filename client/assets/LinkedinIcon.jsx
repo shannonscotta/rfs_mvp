@@ -5,8 +5,8 @@ const LinkedinIcon = ({ fillColor }) => {
 
   return (
     <svg
-      width="45"
-      height="45"
+      width="50"
+      height="50"
       viewBox="0 0 45 46"
       fill="none"
       onClick={handleClick}
