@@ -1,0 +1,135 @@
+.main {
+    border: 2px solid #CECECE;
+    height: 75vh;
+    width: 50%;
+    margin: 2em;
+    border-radius: 15px;
+    background-color: #1f1f1f;
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1em;
+    float: left;
+
+}
+
+.main:hover {
+    border: 2px solid white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+}
+
+label {
+    color: #ffffff;
+}
+
+input[type=name],
+textarea {
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid #cecece;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'poppins';
+}
+
+input[type=name]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #ffffff;
+}
+
+input[type=email],
+textarea {
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid #cecece;
+    background-color: transparent;
+    color: #ffffff;
+
+}
+
+input[type=email]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #ffffff;
+}
+
+input,
+label,
+textarea,
+button {
+    font-size: x-large;
+    font-family: 'poppins';
+    margin-bottom: 10px;
+}
+
+input:hover,
+textarea:hover {
+    transition: all 0.2s ease-in-out;
+    border: 2px solid #ffffff;
+    cursor:pointer;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #cecece;
+    color: #2d2d2d;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #0c0c0c;
+}
+
+textarea {
+    min-height: 10em;
+}
+
+
+
+  /*
+
+  .main {
+    width: auto;
+    float: left;
+    color: #CECECE;
+    width: 50%;
+    margin-left: 7em;
+    margin-top: 10em;
+    line-height: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main>.p {
+    font-size: xx-large;
+    word-spacing: 10px;
+    color: #CECECE;
+}
+
+.logos {
+    display: flex;
+    margin-left: -3em;
+}
+
+.logos>img {
+    margin-right: 2em;
+    margin-bottom: 5em;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 50px;
+    position: relative;
+    cursor: pointer;
+}
+*/

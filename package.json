@@ -17,6 +17,7 @@
     "prettier": "^2.8.8"
   },
   "dependencies": {
-    "animejs": "^3.2.1"
+    "animejs": "^3.2.1",
+    "cors": "^2.8.5"
   }
 }

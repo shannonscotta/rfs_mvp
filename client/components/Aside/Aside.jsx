@@ -6,6 +6,7 @@ import styles from "./Aside.module.css";
 
 const Aside = ({ handleView }) => {
   return (
+    <div className={styles.container}>
     <aside className={styles.aside}>
       <section className={styles.section}>
         <HomeIcon handleView={handleView} />
@@ -13,6 +14,7 @@ const Aside = ({ handleView }) => {
         <MailIcon handleView={handleView} />
       </section>
     </aside>
+    </div>
   );
 };
 
