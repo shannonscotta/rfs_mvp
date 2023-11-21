@@ -1,0 +1,23 @@
+.main {
+    width: auto;
+    color: #CECECE;
+    line-height: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto auto auto 0;
+}
+
+.main>.p {
+    font-size: xx-large;
+    word-spacing: 0.625em;
+    color: #CECECE;
+}
+
+.logos>img {
+    width: 7.5em;
+    height: 6.25em;
+    text-align: center;
+    margin: 3.125em 3.125em 3.125em 0.3125em;
+    cursor: pointer;
+}

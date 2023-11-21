@@ -1,24 +1,27 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+
+import Header from "./Header/Header.jsx";
+import Sidebar from "./Sidebar/Sidebar.jsx";
+import Center from "./Center/Center.jsx";
+import Footer from "./Footer/Footer.jsx";
+import styles from "./App.module.css";
 
 const App = () => {
-  const [tasks, setTasks] = useState([]);
+  const [currentView, setCurrentView] = useState("home");
 
-  useEffect(() => {
-    fetch("/api/tasks")
-      .then((res) => res.json())
-      .then((tasks) => {
-        setTasks(tasks);
-      });
-  }, []);
+  let handleView = (view) => {
+    setCurrentView(view);
+  };
 
   return (
-    <main>
-      {tasks.map((task) => (
-        <span className="task" key={task.id}>
-          {task.description}
-        </span>
-      ))}
-    </main>
+    <>
+      <Header />
+      <section className={styles.section}>
+        <Sidebar handleView={handleView} />
+        <Center currentView={currentView} />
+      </section>
+      <Footer />
+    </>
   );
 };
 

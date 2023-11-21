@@ -1,0 +1,23 @@
+.main {
+    color: #ffffff;
+    float: left;
+    width: auto;
+    line-height: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto auto auto 0;
+}
+
+.p {
+    font-weight: 600;
+    font-size: 3.375em;
+}
+
+.p2 {
+    color: #CECECE;
+    font-weight: 100;
+    font-size: 2.875em;
+    letter-spacing: 0.0325em;
+    padding-bottom: 1.1em;
+}

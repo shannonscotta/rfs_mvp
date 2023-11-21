@@ -1,0 +1,88 @@
+input[type=email],
+input[type=name],
+textarea {
+    padding: 0.625em;
+    background-color: transparent;
+    color: #fff;
+}
+
+.main {
+    border: 0.125em solid #cecece;
+    min-width: 50vw;
+    max-width: 80vw;
+    border-radius: 0.9375em;
+    background-color: #1f1f1f;
+    padding: 1.25em;
+    font-size: 1rem;
+    line-height: 1em;
+    margin: auto auto auto 0;
+}
+
+.main:hover {
+    border: 0.125em solid #fff
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125em;
+}
+
+label {
+    color: #ffffff
+}
+
+input[type=name],
+textarea {
+    border-radius: 0.25em;
+    border: 0.125em solid #cecece;
+    font-family: 'poppins';
+}
+
+input[type=email]:focus,
+input[type=name]:focus,
+textarea:focus {
+    outline: 0;
+    border-color: #fff
+}
+
+input[type=email],
+textarea {
+    border-radius: 0.25em;
+    border: 0.125em solid #cecece
+}
+
+button,
+input,
+label,
+textarea {
+    font-size: x-large;
+    font-family: 'poppins';
+    margin-bottom: 0.625em
+}
+
+input:hover,
+textarea:hover {
+    transition: .2s ease-in-out;
+    border: 0.125em solid #fff;
+    cursor: pointer
+}
+
+button {
+    padding: 0.625em 0.9375em;
+    border: none;
+    border-radius: 0.25em;
+    background-color: #cecece;
+    color: #2d2d2d;
+    cursor: pointer;
+    transition: background-color .3s, color .3s
+}
+
+button:hover {
+    background-color: #fff;
+    color: #0c0c0c
+}
+
+textarea {
+    min-height: 10em
+}
