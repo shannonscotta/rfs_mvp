@@ -1,4 +1,39 @@
-# Full-Stack React Example
+# Technologies 
+This project is built using a range of modern web technologies:
+- **Frontend**: JavaScript, HTML, CSS, React.js, Vite
+- **Backend**: Node.js, Express.js
+- **Database**: PostgreSQL
+
+## Figma Design
+Explore the Figma design for this project:
+- [View Portfolio Prototype on Figma](https://www.figma.com/proto/nV4xeVGA9RGxRJeEBQ1kQ0/portfolio?page-id=0%3A1&type=design&node-id=34-2&viewport=-1174%2C574%2C0.52&t=QoRauYkD852cO1Ha-1&scaling=scale-down&mode=design)
+
+![Portfolio Prototype](/client/assets/figma.png)
+
+## drawSQL ERD
+Inspect the Entity Relationship Diagram (ERD) for the database:
+- [View ERD on DrawSQL](https://drawsql.app/teams/team-scott-1/diagrams/rfs-mvp)
+
+![ERD Diagram](/client/assets/drawSQL.png)
+
+## Learning Points
+Throughout the development of this project, key learning areas included:
+- React prop drilling
+- Use of CSS modules for styling
+- Dynamic SVG fills
+- Integration of anime.js for animations
+- Effective use of embedded iframes in markdown
+
+## Work in Progress (WIP)
+Ongoing development and enhancements are focused on:
+- Implementing vitest for unit testing
+- Integrating cypress for end-to-end testing
+- Optimizing media queries for improved mobile responsiveness
+- Preparing for deployment to [scottshannon.dev](https://scottshannon.dev)
+
+
+
+<!-- # Full-Stack React Example
 
 This repo contains an example of a full-stack application with an express backend and a React frontend.
 
@@ -38,8 +73,3 @@ It uses vite as the module bundler and dotenv for configuration. It's organized 
 
 - `npm run dev` - Runs the server in watch mode.
 - `npm run start` - Starts the server (mainly used when deploying).
-
-
-TODO:// put drawSQL here, put figma designs here
-
-
