@@ -21,40 +21,24 @@ const SkillsContent = () => {
 
   let handleHover = (event) => {
     anime({
-      targets: event.currentTarget, 
+      targets: event.currentTarget,
       translateY: [
         { value: -100, duration: 500 },
         { value: 0, duration: 500 },
       ],
-      scale: 1.5, 
-      duration: 1000, 
-      easing: "easeInOutSine"
+      scale: 1.5,
+      duration: 1000,
+      easing: "easeInOutSine",
     });
   };
 
   return (
     <main className={styles.main}>
       <section className={styles.logos} id="logos">
-        <img
-          onMouseEnter={handleHover}
-          src="psql_logo.svg"
-          alt="PostgreSQL"
-        />
-        <img
-          onMouseEnter={handleHover}
-          src="client/assets/express_logo.svg"
-          alt="Express"
-        />
-        <img
-          onMouseEnter={handleHover}
-          src="../../react_logo.svg"
-          alt="React"
-        />
-        <img
-          onMouseEnter={handleHover}
-          src="assets/node_logo.svg"
-          alt="NodeJS"
-        />
+        <img onMouseEnter={handleHover} src="/psql_logo.svg" alt="PostgreSQL" />
+        <img onMouseEnter={handleHover} src="/express_logo.svg" alt="Express" />
+        <img onMouseEnter={handleHover} src="/react_logo.svg" alt="React" />
+        <img onMouseEnter={handleHover} src="/node_logo.svg" alt="NodeJS" />
       </section>
 
       <p className={styles.p}>JavaScript, React.js, Vite, HTML, CSS</p>
