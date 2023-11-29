@@ -16,3 +16,20 @@
     fill: white;
     transform: scale(1.2);
 }
+
+@media screen and (max-width: 375px) {
+    .header {
+      display: block; 
+      justify-content: flex-start; 
+      height: auto; 
+    }
+  
+    .header svg {
+      padding: 1em 1em 0em 0em; 
+      margin-right: 0; 
+      fill: #CECECE;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+
+  }

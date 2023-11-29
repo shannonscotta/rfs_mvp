@@ -37,3 +37,40 @@
     stroke-width: 0.03125em;
     transform: scale(1.2);
 }
+
+
+
+@media screen and (max-width: 375px) {
+    .aside {
+        border: 0.125em solid #CECECE;
+        height: auto;
+        width: 100%;
+        margin: 0em;
+        border-radius: 0;
+        background-color: #1f1f1f;
+        display: block;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .aside:hover {
+        border: 0.125em solid white;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+        width: 100%;
+        align-items: center;
+    }
+
+    .section>svg {
+        fill: #CECECE;
+        stroke: #CECECE;
+        stroke-width: 0.00625em;
+        transition: all 0.2s ease-in-out;
+    }
+
+}

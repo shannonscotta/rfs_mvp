@@ -7,3 +7,15 @@ body {
     display: flex;
     height: 75vh;
 }
+
+@media screen and (max-width: 375px) {
+  body {
+    margin: 0;
+    background-color: #0C0C0C;
+  }
+
+  .section {
+    display: block; 
+    height: auto; 
+  }
+}
