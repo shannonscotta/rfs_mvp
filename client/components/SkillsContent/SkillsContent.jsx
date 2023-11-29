@@ -47,7 +47,7 @@ const SkillsContent = () => {
         />
         <img
           onMouseEnter={handleHover}
-          src="assets/react_logo.svg"
+          src="../../react_logo.svg"
           alt="React"
         />
         <img
