@@ -37,7 +37,7 @@ const SkillsContent = () => {
       <section className={styles.logos} id="logos">
         <img
           onMouseEnter={handleHover}
-          src="/assets/psql_logo.svg"
+          src="/client/assets/psql_logo.svg"
           alt="PostgreSQL"
         />
         <img
