@@ -52,7 +52,7 @@ const SkillsContent = () => {
         />
         <img
           onMouseEnter={handleHover}
-          src="../../assets/node_logo.svg"
+          src="https://scottshannon.dev/client/assets/node_logo.svg"
           alt="NodeJS"
         />
       </section>
