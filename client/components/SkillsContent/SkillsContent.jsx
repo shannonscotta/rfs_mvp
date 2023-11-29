@@ -37,22 +37,22 @@ const SkillsContent = () => {
       <section className={styles.logos} id="logos">
         <img
           onMouseEnter={handleHover}
-          src="/client/assets/psql_logo.svg"
+          src="assets/psql_logo.svg"
           alt="PostgreSQL"
         />
         <img
           onMouseEnter={handleHover}
-          src="/assets/express_logo.svg"
+          src="assets/express_logo.svg"
           alt="Express"
         />
         <img
           onMouseEnter={handleHover}
-          src="/assets/react_logo.svg"
+          src="assets/react_logo.svg"
           alt="React"
         />
         <img
           onMouseEnter={handleHover}
-          src="/assets/node_logo.svg"
+          src="assets/node_logo.svg"
           alt="NodeJS"
         />
       </section>
