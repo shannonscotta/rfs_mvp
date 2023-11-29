@@ -37,12 +37,12 @@ const SkillsContent = () => {
       <section className={styles.logos} id="logos">
         <img
           onMouseEnter={handleHover}
-          src="assets/psql_logo.svg"
+          src="rfs_mvp/client/assets/psql_logo.svg"
           alt="PostgreSQL"
         />
         <img
           onMouseEnter={handleHover}
-          src="assets/express_logo.svg"
+          src="client/assets/express_logo.svg"
           alt="Express"
         />
         <img
